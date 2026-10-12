@@ -1,6 +1,8 @@
-import { useColorScheme as useColorSchemeCore } from 'react-native';
+import { useColorScheme as useSystemColorScheme } from 'react-native';
+
+import { useOptionalThemeMode } from '@/contexts/ThemeContext';
 
 export const useColorScheme = () => {
-  const coreScheme = useColorSchemeCore();
-  return coreScheme === 'unspecified' ? 'light' : coreScheme;
+  const systemScheme = useSystemColorScheme();
+  return useOptionalThemeMode()?.scheme ?? (systemScheme === 'dark' ? 'dark' : 'light');
 };

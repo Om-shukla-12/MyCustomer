@@ -1,0 +1,76 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1786798748666,
+      "tag": "0000_blue_big_bertha",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1786801460514,
+      "tag": "0001_sour_talkback",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1786856956210,
+      "tag": "0002_steady_power_man",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "6",
+      "when": 1786858771633,
+      "tag": "0003_sudden_harry_osborn",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "6",
+      "when": 1786861212254,
+      "tag": "0004_regular_aqueduct",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "6",
+      "when": 1786873211395,
+      "tag": "0005_nostalgic_shinobi_shaw",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "6",
+      "when": 1787665406724,
+      "tag": "0006_blushing_giant_man",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "6",
+      "when": 1787728295054,
+      "tag": "0007_dazzling_carmella_unuscione",
+      "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "6",
+      "when": 1799999999000,
+      "tag": "0008_sales_stock",
+      "breakpoints": true
+    },
+    {
+      "idx": 9,
+      "version": "6",
+      "when": 1799999999001,
+      "tag": "0009_product_guarantor",
+      "breakpoints": true
+    }
+  ]
+}

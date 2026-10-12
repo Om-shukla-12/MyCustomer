@@ -1,0 +1,1 @@
+ALTER TABLE `areas` ADD `name_gu` text;

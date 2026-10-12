@@ -17,7 +17,8 @@
         "backgroundImage": "./assets/images/android-icon-background.png",
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.sbmshukla17.MyCustomers"
     },
     "web": {
       "bundler": "metro",
@@ -25,7 +26,15 @@
       "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
-      "expo-router",
+      [
+        "expo-router",
+        {
+          "headers": {
+            "Cross-Origin-Embedder-Policy": "credentialless",
+            "Cross-Origin-Opener-Policy": "same-origin"
+          }
+        }
+      ],
       [
         "expo-splash-screen",
         {
@@ -33,10 +42,38 @@
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
         }
+      ],
+      "expo-sqlite",
+      "expo-sharing",
+      "expo-updates",
+      "@react-native-community/datetimepicker",
+      [
+        "expo-contacts",
+        {
+          "contactsPermission": "Allow $(PRODUCT_NAME) to access your contacts to detect existing entries and save customers to your phone."
+        }
       ]
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "checkAutomatically": "ON_LOAD",
+      "url": "https://u.expo.dev/4bad232e-c925-4b33-8574-b696facee1d3"
+    },
+    "extra": {
+      "router": {},
+      "googleDriveOAuth": {
+        "webClientId": "896283479397-m1j4g3iabcsurp4pbk7jdlvs6j4e868r.apps.googleusercontent.com",
+        "androidClientId": "",
+        "iosClientId": ""
+      },
+      "eas": {
+        "projectId": "4bad232e-c925-4b33-8574-b696facee1d3"
+      }
     }
   }
 }

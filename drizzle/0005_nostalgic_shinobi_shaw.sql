@@ -1,0 +1,1 @@
+ALTER TABLE `customers` ADD `native_contact_id` text;
